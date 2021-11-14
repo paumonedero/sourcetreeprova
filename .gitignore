@@ -1,2 +1,11 @@
 *.dat
-results/
+results/*
+#ignora todos los archivos .log...
+*.log
+#...excepto:
+!final.log
+
+!results/data/
+results/data/position/gps/*.data
+
+logs/log_*
